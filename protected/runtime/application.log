@@ -1,0 +1,1385 @@
+2014/06/03 13:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/03 13:19:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/app.js".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/app.js')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/app.js
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/03 13:19:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/lib/angular/angular.min.js.map".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/lib/angular/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lib/angular/angular.min.js.map
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/03 13:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/lib/angular/angular.min.js.map".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/lib/angular/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lib/angular/angular.min.js.map
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/03 13:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/lib/angular/angular.min.js.map".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/lib/angular/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lib/angular/angular.min.js.map
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/03 14:17:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "qweq".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('qweq')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('qweq')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/qweq')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/qweq
+---
+2014/06/03 14:17:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('list')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/list')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/list
+---
+2014/06/03 14:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('view')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/view')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/1
+---
+2014/06/03 14:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/lib/angular/angular.js".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/lib/angular/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lib/angular/angular.js
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/03 15:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/03 15:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/lib/angular/controllers.js".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/lib/angular/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lib/angular/controllers.js
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/03 16:49:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "caterory".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('caterory')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('caterory')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/caterory')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/caterory
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/03 16:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "caterory".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('caterory')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('caterory')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/caterory')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/caterory
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/04 12:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/05 11:34:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/05 12:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/noimage.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/noimage.j...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/noimage.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/noimage.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/noimage.j...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/image/noimage.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:43:31 [error] [php] Undefined variable: arrData (C:\www\market_angular\protected\controllers\ItemController.php:31)
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(286): ItemController->runAction()
+#1 C:\www\yii\framework\web\CController.php(265): ItemController->runActionWithFilters()
+#2 C:\www\yii\framework\web\CWebApplication.php(282): ItemController->run()
+#3 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\www\market_angular\index.php(13): CWebApplication->run()
+REQUEST_URI=/item/list
+in C:\www\market_angular\protected\controllers\ItemController.php (31)
+in C:\www\market_angular\index.php (13)
+2014/06/05 12:43:51 [error] [exception.CException] exception 'CException' with message 'Property "Item.0" is not defined.' in C:\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\www\market_angular\protected\controllers\ItemController.php(32): CModel->offsetGet(0)
+#3 C:\www\yii\framework\web\actions\CInlineAction.php(49): ItemController->actionList()
+#4 C:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#8 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/list')
+#9 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\www\market_angular\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/item/list
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:45:25 [error] [exception.CException] exception 'CException' with message 'Property "Item.0" is not defined.' in C:\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\www\market_angular\protected\controllers\ItemController.php(32): CModel->offsetGet(0)
+#3 C:\www\yii\framework\web\actions\CInlineAction.php(49): ItemController->actionList()
+#4 C:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#8 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/list')
+#9 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\www\market_angular\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/item/list
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:46:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:47:26 [error] [exception.CException] exception 'CException' with message 'Property "Item.0" is not defined.' in C:\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\www\market_angular\protected\controllers\ItemController.php(32): CModel->offsetGet(0)
+#3 C:\www\yii\framework\web\actions\CInlineAction.php(49): ItemController->actionList()
+#4 C:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#8 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/list')
+#9 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\www\market_angular\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/item/list
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:48:55 [error] [exception.CException] exception 'CException' with message 'Property "Item.0" is not defined.' in C:\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\www\market_angular\protected\controllers\ItemController.php(32): CModel->offsetGet(0)
+#3 C:\www\yii\framework\web\actions\CInlineAction.php(49): ItemController->actionList()
+#4 C:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#8 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/list')
+#9 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\www\market_angular\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/item/list
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:49:00 [error] [exception.CException] exception 'CException' with message 'Property "Item.0" is not defined.' in C:\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\www\market_angular\protected\controllers\ItemController.php(32): CModel->offsetGet(0)
+#3 C:\www\yii\framework\web\actions\CInlineAction.php(49): ItemController->actionList()
+#4 C:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#8 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/list')
+#9 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\www\market_angular\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/item/list
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:52:16 [error] [exception.CException] exception 'CException' with message 'Property "Item.0" is not defined.' in C:\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('0')
+#1 C:\www\yii\framework\base\CModel.php(596): CActiveRecord->__get('0')
+#2 C:\www\market_angular\protected\controllers\ItemController.php(32): CModel->offsetGet(0)
+#3 C:\www\yii\framework\web\actions\CInlineAction.php(49): ItemController->actionList()
+#4 C:\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#8 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/list')
+#9 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\www\market_angular\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/item/list
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:56:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items//_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items//_...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items//_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:57:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:57:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:57:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:57:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:57:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:57:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 12:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:02:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:02:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:02:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:02:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:02:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:02:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/2/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/2/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/2/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/7/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/7/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/7/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/6/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/6/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/6/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/9/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/9/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/9/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/10/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/10...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/10/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/items/8/_thmb.jpg".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/items/8/...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/items/8/_thmb.jpg
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 13:12:25 [error] [php] Undefined variable: thumbnailPath (C:\www\market_angular\protected\controllers\ItemController.php:36)
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(286): ItemController->runAction()
+#1 C:\www\yii\framework\web\CController.php(265): ItemController->runActionWithFilters()
+#2 C:\www\yii\framework\web\CWebApplication.php(282): ItemController->run()
+#3 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\www\market_angular\index.php(13): CWebApplication->run()
+REQUEST_URI=/item/list
+in C:\www\market_angular\protected\controllers\ItemController.php (36)
+in C:\www\market_angular\index.php (13)
+2014/06/05 13:13:47 [error] [php] Undefined variable: thumbnailUrl (C:\www\market_angular\protected\controllers\ItemController.php:37)
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(286): ItemController->runAction()
+#1 C:\www\yii\framework\web\CController.php(265): ItemController->runActionWithFilters()
+#2 C:\www\yii\framework\web\CWebApplication.php(282): ItemController->run()
+#3 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\www\market_angular\index.php(13): CWebApplication->run()
+REQUEST_URI=/item/list
+in C:\www\market_angular\protected\controllers\ItemController.php (37)
+in C:\www\market_angular\index.php (13)
+2014/06/05 14:02:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/js/lib/boo...')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/js/lib/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:02:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/css/main.c...')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/css/main.css
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:02:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "item".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('item')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('item')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/item/categ...')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/item/category
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:02:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "item".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('item')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('item')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/item/brand')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/item/brand
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/js/lib/boo...')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/js/lib/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/css/main.c...')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/css/main.css
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "item".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('item')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('item')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/item/brand')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/item/brand
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:03:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "item".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('item')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('item')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/item/categ...')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/item/category
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/css/main.c...')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/css/main.css
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/js/lib/boo...')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/js/lib/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "item".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('item')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('item')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/item/categ...')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/item/category
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 14:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "item".' in C:\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\www\yii\framework\web\CController.php(270): CController->missingAction('item')
+#1 C:\www\yii\framework\web\CWebApplication.php(282): CController->run('item')
+#2 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('item/item/brand')
+#3 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\www\market_angular\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/item/item/brand
+HTTP_REFERER=http://market_angular/item/index
+---
+2014/06/05 16:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ajax.googleapis...')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js
+HTTP_REFERER=http://market_angular/item
+---
+2014/06/05 17:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/05 17:24:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/06 11:04:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/10 11:28:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/12 10:45:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/13 11:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/16 11:13:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/16 15:57:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/18 11:15:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/14 09:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\www\market_angular\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
